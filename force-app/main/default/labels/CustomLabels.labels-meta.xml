@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Flight_Cannot_Modify_Start_Time</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message when trying to modify flight start time with booked tickets</shortDescription>
+        <value>Cannot modify flight start time when tickets are booked</value>
+    </labels>
+    <labels>
+        <fullName>Flight_Cannot_Delete_With_Booked_Tickets</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message when trying to delete flight with booked tickets</shortDescription>
+        <value>Cannot delete flight with booked tickets</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Cannot_Change_Flight_When_Booked</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message when trying to change flight for booked ticket</shortDescription>
+        <value>Cannot change flight for booked ticket</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Already_Booked_For_Another_Contact</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error message when ticket is already booked for another contact</shortDescription>
+        <value>Ticket is already booked for another contact</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Flight Selector Component Title</shortDescription>
+        <value>Select Flight</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_Loading</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading message for flights</shortDescription>
+        <value>Loading flights...</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_SelectTripMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message when no trip is selected</shortDescription>
+        <value>Please select a Trip record to view available flights.</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_SetDateMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message to set preferred date</shortDescription>
+        <value>Set a {0} date to see available flights.</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_PreferredTripStart</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preferred Trip Start field label</shortDescription>
+        <value>Preferred Trip Start</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_CurrentlySelected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Currently selected flight label</shortDescription>
+        <value>Currently Selected</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_ClearSelection</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Clear selection button text</shortDescription>
+        <value>Clear selection</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_YourTicket</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your ticket label</shortDescription>
+        <value>Your Ticket:</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_ViewTicket</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View ticket button label</shortDescription>
+        <value>View Ticket</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_SelectFlight</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select flight button label</shortDescription>
+        <value>Select Flight</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_NoFlightsTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No flights available title</shortDescription>
+        <value>No Flights Available</value>
+    </labels>
+    <labels>
+        <fullName>FlightSelector_NoFlightsMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No flights available message</shortDescription>
+        <value>There are no flights with available seats for {0}.</value>
+    </labels>
+</CustomLabels>
