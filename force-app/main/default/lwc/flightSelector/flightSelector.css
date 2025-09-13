@@ -1,0 +1,16 @@
+.flights-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--slds-c-spacing-medium, 0.75rem);
+}
+
+.flights-grid.scrollable {
+    max-height: 15rem;
+    overflow-y: auto;
+}
+
+.flight-card:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--slds-c-shadow-2, 0 2px 4px rgba(0, 0, 0, 0.1));
+    border-color: var(--slds-c-color-border-brand, #1589ee);
+}

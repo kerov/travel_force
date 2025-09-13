@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Tickets__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Number of tickets without assigned Contact (updated via trigger)</description>
+    <externalId>false</externalId>
+    <label>Available Tickets</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

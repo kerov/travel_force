@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flight__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Flight</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <description>Show only flights that match preferred start date and have available tickets</description>
+        <filterItems>
+            <field>Flight__c.Start__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Preferred_Trip_Start__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Flight__c.Available_Tickets__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filterItems>
+        <infoMessage>Only flights matching your preferred start date with available tickets are shown.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Flight__c</referenceTo>
+    <relationshipLabel>Trips</relationshipLabel>
+    <relationshipName>Trips</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
